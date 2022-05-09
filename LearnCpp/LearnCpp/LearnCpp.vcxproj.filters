@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\FunctionalProgramming">
+      <UniqueIdentifier>{3565600c-4a40-4900-96f6-b32080f035c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,10 +24,16 @@
     <ClCompile Include="1-1.h">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="FunctionalProgramming\Chapter1.cpp">
+      <Filter>Header Files\FunctionalProgramming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1-2.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionalProgramming\Chapter1.h">
+      <Filter>Header Files\FunctionalProgramming</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

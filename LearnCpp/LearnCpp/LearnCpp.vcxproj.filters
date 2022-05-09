@@ -16,6 +16,9 @@
     <Filter Include="Header Files\FunctionalProgramming">
       <UniqueIdentifier>{3565600c-4a40-4900-96f6-b32080f035c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Template">
+      <UniqueIdentifier>{11c53663-a904-4634-a018-5461b64b31bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,6 +30,9 @@
     <ClCompile Include="FunctionalProgramming\Chapter1.cpp">
       <Filter>Header Files\FunctionalProgramming</Filter>
     </ClCompile>
+    <ClCompile Include="Template\LearnConcept.cpp">
+      <Filter>Header Files\Template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1-2.h">
@@ -34,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="FunctionalProgramming\Chapter1.h">
       <Filter>Header Files\FunctionalProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\LearnConcept.h">
+      <Filter>Header Files\Template</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

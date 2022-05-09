@@ -33,6 +33,8 @@ namespace TP {
 		auto even = [](int i) { return 0 == i % 2;  };
 		auto square = [](int i) { return i * i;  };
 		
+		auto cc = ints | std::views::filter(even);
+
 		for (int i : (ints | std::views::filter(even) | std::views::transform(square)))
 			std::cout << i << ' ';
 

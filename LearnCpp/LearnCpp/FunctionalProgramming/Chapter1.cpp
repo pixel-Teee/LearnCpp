@@ -5,7 +5,7 @@
 
 namespace FP {
 
-	auto count_lines(std::ifstream&& in)
+	auto count_lines(std::ifstream&& in)->int
 	{
 		//std::ifstream in(filename);
 
@@ -15,7 +15,7 @@ namespace FP {
 			'\n');
 	}
 
-	auto open_file(const std::string& filename)
+	auto open_file(const std::string& filename)->std::ifstream
 	{
 		std::ifstream in{filename};
 		return in;
@@ -48,7 +48,6 @@ namespace FP {
 		auto res = files | std::views::transform(open_file) | std::views::transform(count_lines);
 
 		return std::vector<int>(res.begin(), res.end());
-		//return v;
 	}
 	
 	

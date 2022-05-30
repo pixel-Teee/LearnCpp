@@ -33,6 +33,9 @@
     <ClCompile Include="Template\LearnConcept.cpp">
       <Filter>Header Files\Template</Filter>
     </ClCompile>
+    <ClCompile Include="Template\Reflect.cpp">
+      <Filter>Header Files\Template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1-2.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files\FunctionalProgramming</Filter>
     </ClInclude>
     <ClInclude Include="Template\LearnConcept.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\Reflect.h">
       <Filter>Header Files\Template</Filter>
     </ClInclude>
   </ItemGroup>

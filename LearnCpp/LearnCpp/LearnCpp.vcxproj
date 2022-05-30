@@ -144,11 +144,13 @@
     <ClCompile Include="FunctionalProgramming\Chapter1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Template\LearnConcept.cpp" />
+    <ClCompile Include="Template\Reflect.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1-2.h" />
     <ClInclude Include="FunctionalProgramming\Chapter1.h" />
     <ClInclude Include="Template\LearnConcept.h" />
+    <ClInclude Include="Template\Reflect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
